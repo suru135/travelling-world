@@ -1,0 +1,66 @@
+.main{
+	margin:0;
+	padding: 0;
+}
+.form{
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	background-image: url("images/x1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.form .heading{
+	width: 400px;
+	height: 200px;
+	margin:auto;
+}
+.form .heading h1{
+	line-height: 250px;
+	padding-left: 70px;
+	font-size: 40px;
+	color: white;
+}
+.form form{
+	width:500px;
+	height:350px;
+	margin:25px auto;
+}
+.form form .ip1{
+	width: 150px;
+	height: 30px;
+	float: left;
+	padding: 5px;
+	margin-bottom: 35px;
+	line-height: 30px;
+}
+.form form .ip1 label{
+	text-align: left;
+	font-size: 20px;
+	float: left;
+	color: white;
+}
+.form form input{
+	width: 320px;
+	height: 35px;
+	margin-bottom: 35px;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 20px;
+}
+.form form .ip2{
+	width: 320px;
+	height: 40px;
+	float: left;
+}
+.form form .ip2 input{
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	font-size: 22px;
+	margin-right: 15px;
+}
+.form form .ip2 input:hover{
+	color: white;
+	background-color: gray;
+}
